@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xpert Arms</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600;700&family=Baloo+Thambi+2:wght@600&family=Bree+Serif&family=Itim&family=Poppins:ital,wght@0,600;1,200;1,400&family=Roboto:ital,wght@1,500&display=swap"
+        rel="stylesheet">
+    <style>
+        @media screen and (min-width:100px) {
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                background: url("dark-line-wave-abstract-background_393744-267.jpg") no-repeat center center/cover;
+                opacity: 0.91;
+            }
+
+            #navbar {
+                position: relative;
+                align-items: center;
+                display: flex;
+                top: 0px;
+            }
+
+            #navbar ul {
+                display: flex;
+                align-items: center;
+                font-family: 'Baloo Bhaijaan 2', 'cursive';
+            }
+
+            #navbar::before {
+                content: "";
+                background-color: rgb(21, 80, 206);
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                height: 100%;
+                width: 100%;
+                z-index: -1;
+                opacity: 0.4;
+            }
+
+            #logo {
+                margin: 10px 34px;
+            }
+
+            #logo img {
+                height: 59px;
+                margin: 3px 6px;
+                border-radius: 29px;
+            }
+
+            #navbar ul li {
+                list-style: none;
+                font-size: 1.3rem;
+            }
+
+            #navbar ul li a {
+                color: white;
+                display: block;
+                padding: 3px 22px;
+                border-radius: 20px;
+                text-decoration: none;
+            }
+
+            #navbar ul li a:hover {
+                color: black;
+                background-color: white;
+            }
+
+            .container {
+                margin: 12px auto;
+                max-width: 80%;
+                background-color: white;
+                border-radius: 5px;
+                height: 230vh;
+            }
+
+            .container p {
+                border: 10px solid white;
+                color: black;
+                margin-left: 50px;
+                font-family: 'Baloo Bhaijaan 2', 'cursive';
+                padding: 5px;
+            }
+
+            .container li {
+                border: 10px solid white;
+                color: black;
+                margin-left: 50px;
+                /* text-align: center; */
+                font-family: 'Baloo Bhaijaan 2', 'cursive';
+                padding: 5px;
+                list-style: none;
+            }
+
+            .container img {
+                width: 100%;
+                -webkit-filter: grayscale(100%);
+                filter: grayscale(100%);
+            }
+
+            .h-primary {
+                text-align: center;
+                font-size: 3.8rem;
+                margin: 10px 8px;
+                padding: 12px;
+                font-family: 'Bree Serif', serif;
+                color: rgb(123, 159, 237);
+                text-decoration: underline;
+            }
+
+            .h-secondary {
+                margin-left: 50px;
+                font-size: 1.8rem;
+                padding: 12px;
+                font-family: 'Bree Serif', serif;
+
+            }
+
+            footer {
+                background-color: rgb(11, 65, 182);
+                opacity: 0.6;
+            }
+
+            footer div {
+                color: white;
+                padding: 9px 20px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logoX.jpeg" alt="logo..">
+        </div>
+        <ul>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="about.html">About</a></li>
+            <li class="item"><a href="mission.html">Mission</a></li>
+            <li class="item"><a href="products.html">Products</a></li>
+            <li class="item"><a href="services.html">Services</a></li>
+            <li class="item"><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section class="container">
+
+        <img src="roip.jpeg" alt="padlock..">
+
+        <h1 class="h-primary">IP NETWORK RADIO SYSTEM</h1>
+
+
+        <p>This innovative product generates a new world of possibilities with radios that can leverage
+            already existing Wi-Fi networks. Consider the possibility of having radio coverage anywhere
+            you currently have coverage for Wi-Fi based devices. The controller that connects to the
+            wireless network allows grouped users to hear and talk with another group. Individual calls are
+            also possible. Full duplex communication (as with a regular telephone) can be used if enabled in
+            the controller. </p>
+        <p>WLAN-based radio system offers scalable, license-free communication that uses standardized
+            wireless network products as infrastructure. In several cases, said infrastructure is already in
+            place.</p>
+        <h6 class="h-secondary">AREAS OF USE</h6>
+        <ul>
+            <li>Warehouses</li>
+            <li>Restaurants/Cafe</li>
+            <li>Hotels/Museums</li>
+            <li>Shopping Malls/ Department Stores</li>
+            <li>Security/Guards</li>
+            <li>Hospitals/Care</li>
+        </ul>
+
+    </section>
+    <footer>
+        <div>
+            Copyright &copy; www.Xpert Arms.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>

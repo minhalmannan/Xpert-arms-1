@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xpert Arms</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600;700&family=Baloo+Thambi+2:wght@600&family=Bree+Serif&family=Itim&family=Poppins:ital,wght@0,600;1,200;1,400&family=Roboto:ital,wght@1,500&display=swap"
+        rel="stylesheet">
+    <style>
+        @media screen and (min-width:100px) {
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                background: url("dark-line-wave-abstract-background_393744-267.jpg") no-repeat center center/cover;
+                opacity: 0.91;
+            }
+
+            #navbar {
+                position: relative;
+                align-items: center;
+                display: flex;
+                top: 0px;
+            }
+
+            #navbar ul {
+                display: flex;
+                align-items: center;
+                font-family: 'Baloo Bhaijaan 2', 'cursive';
+            }
+
+            #navbar::before {
+                content: "";
+                background-color: rgb(21, 80, 206);
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                height: 100%;
+                width: 100%;
+                z-index: -1;
+                opacity: 0.4;
+            }
+
+            #logo {
+                margin: 10px 34px;
+            }
+
+            #logo img {
+                height: 59px;
+                margin: 3px 6px;
+                border-radius: 29px;
+            }
+
+            #navbar ul li {
+                list-style: none;
+                font-size: 1.3rem;
+            }
+
+            #navbar ul li a {
+                color: white;
+                display: block;
+                padding: 3px 22px;
+                border-radius: 20px;
+                text-decoration: none;
+            }
+
+            #navbar ul li a:hover {
+                color: black;
+                background-color: white;
+            }
+
+            .container {
+                margin: 12px auto;
+                max-width: 80%;
+                background-color: white;
+                border-radius: 5px;
+                height: 280vh;
+            }
+
+            .container p {
+                border: 10px solid white;
+                color: black;
+                text-align: center;
+                font-family: 'Baloo Bhaijaan 2', 'cursive';
+                padding: 5px;
+                margin: 8px 5px;
+            }
+
+            .container img {
+                width: 100%;
+                -webkit-filter: grayscale(100%);
+                filter: grayscale(100%);
+            }
+
+            /* h6 {
+            float: left;
+            text-align: center;
+            width: 80%;
+            margin-left: 5px;
+            font-size: 1.5rem;
+            color: rgb(123, 159, 237);
+            text-decoration: underline;
+            font-family: 'Bree Serif', serif;
+
+        } */
+
+            .combined-section {
+                overflow: hidden;
+            }
+
+            .combined-section p {
+                float: left;
+                width: 60%;
+                margin-left: 15px;
+
+            }
+
+            .combined-section h6 {
+                float: left;
+                text-align: center;
+                width: 60%;
+                margin-left: 5px;
+                font-size: 1.5rem;
+                color: rgb(123, 159, 237);
+                text-decoration: underline;
+                font-family: 'Bree Serif', serif;
+
+            }
+
+            .combined-section img {
+                float: right;
+                width: 30%;
+                height: 90%;
+                margin-right: 10px;
+            }
+
+
+
+            .h-primary {
+                font-size: 3.8rem;
+                text-align: center;
+                padding: 12px;
+                color: rgb(123, 159, 237);
+                text-decoration: underline;
+                font-family: 'Bree Serif', serif;
+            }
+
+
+            .h-secondary {
+                text-align: center;
+                font-size: 1rem;
+                padding: 12px;
+                font-family: 'Bree Serif', serif;
+            }
+
+            footer {
+                background-color: rgb(11, 65, 182);
+                opacity: 0.6;
+            }
+
+            footer div {
+                color: white;
+                padding: 9px 20px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logoX.jpeg" alt="logo..">
+        </div>
+        <ul>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="about.html">About</a></li>
+            <li class="item"><a href="mission.html">Mission</a></li>
+            <li class="item"><a href="products.html">Products</a></li>
+            <li class="item"><a href="services.html">Services</a></li>
+            <li class="item"><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section class="container">
+        <img src="parking.jpeg" alt="padlock..">
+        <h1 class="h-primary">Parking Guidance System</h1>
+        <h4 class="h-secondary">The function of the parking guidance system to provide the guideline to drivers for
+            parking into the right place that indicates by the system before getting into the
+            parking area.
+        </h4>
+        <div class="combined-section">
+            <h6>LED Display and Indicators</h6>
+            <p>LED Display and LED indicators are used to show in real time free/occupied space for the
+                Parking outside the parking to get into the right parking slot.</p>
+            <h6>Parking Layers and Sectors</h6>
+            <p>Parking layers and sectors can be defined in different categories according to the
+                management plan.
+
+            </p>
+            <img src="parking 3.png" alt="">
+            <h6>Available Lot & Parking Counter</h6>
+            <p>Each Sector now contains parking spaces and the available lots can be viewed on the display to select
+                specific lane. Once the vehicle is parked, the available lots counter will drop one count.
+            </p>
+            <h6>Sensor & Indicator</h6>
+            <p>The LED indicator is installed the front of each car park space for the convenience of
+                drivers’ observation and inform the available lots to the drivers by its color. It will turn
+                from green to red when it is occupied, or it will keep green. One parking space needs one
+                LED indicator.</p>
+            <img src="parking 2.jpg" alt="queue">
+            <h6>Real Time Monitoring</h6>
+            <p>The functionality allows monitoring of real time status of your parking. The specialty of the solution is
+                CCTV synchronization with the parking record all movements as today’s requirements for the security
+                enablement.
+            </p>
+            <h6>Statistical MIS Generation
+            </h6>
+            <p>The system allows management to have statistical data of the traffic flow in the parking slot wise
+                pattern through Monthly/Weekly/daily MIS generation. </p>
+        </div>
+
+    </section>
+    <footer>
+        <div>
+            Copyright &copy; www.Xpert Arms.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>
